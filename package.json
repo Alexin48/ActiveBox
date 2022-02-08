@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "css-loader": "^6.6.0",
+    "mini-css-extract-plugin": "^2.5.3"
+  }
+}
