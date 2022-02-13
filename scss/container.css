@@ -1,0 +1,8 @@
+@charset "UTF-8";
+.container {
+  width: 100%;
+  max-width: 1200px;
+  /*Расположение контейнера по центру*/
+  margin: 0 auto;
+  padding: 0 15px;
+}
