@@ -1,3 +1,49 @@
-.team{
+.team {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+
+}
+
+.team__info {
+    width: 23.5%;
+
+}
+
+.team_photo {
+    width: 100%;
+    height: 100%;
+}
+
+.teamt__name {
+    font-size: 22px;
+}
+
+.team__work {
+    font-size: 13px;
+    color: #e84545;
+    text-transform: uppercase;
+
+}
+
+.team__text {
+    padding: 20px 0;
+    line-height: 1.8;
+    color: #6c7279;
+}
+
+.team__social-icons {
+    display: flex;
+    gap: 4px;
+
+}
+
+.team__social-icon {
+    border: 1px solid #e8ecee;
+    padding: 10px 15px;
+    line-height: 0;
 
 }
