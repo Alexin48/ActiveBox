@@ -1,3 +1,10 @@
-.clients{
+.clients {
+    display: flex;
+    justify-content: center;
+
 
 }
+
+.clients__img {}
+
+.clients__text {}
