@@ -1,25 +1,37 @@
-.header {
+.wrapper {
     background-image: url("../img/header/Layer 34.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.header__nav {
+.header {
+    z-index: 50;
+}
+
+.header__body {
     display: flex;
     justify-content: space-between;
-    padding: 30px 0;
+    align-items: center;
+    padding: 20px 0;
     text-transform: uppercase;
     border-bottom: 1px solid #505167;
-    
 }
 
+.header__logo img {
+    max-width: 100%;
+}
 
-.header__nav-right {
+.header__menu-Burger {
+    display: none;
+}
+
+.header__list {
     display: flex;
-    gap: 20px;
+    gap: 25px;
+    list-style: none;
 }
 
-.header__right {
+.header__link {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     text-decoration: none;
@@ -27,7 +39,7 @@
     opacity: .5;
 }
 
-.header__right:hover {
+.header__link:hover {
     color: white;
     opacity: 1;
     border-bottom: 1px solid yellow;
@@ -41,25 +53,36 @@
 }
 
 .header__text {
+    padding: 5px 10px;
+}
+
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 110px 100px 0;
     text-align: center;
     font-size: 22px;
 }
 
-.header__btn {
+.btn {
     display: inline-block;
     background: #e84545;
     padding: 20px 100px;
     color: white;
-    margin: 80px 0 150px;
+    margin-top: 80px;
+    margin-bottom: 150px;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 5px;
+    font-size: 13px;
 }
 
-.header__btn:hover {
+.btn:hover {
     background: rgba(0, 0, 0, 0);
     color: white;
     box-shadow: inset 0 0 0 3px yellow;

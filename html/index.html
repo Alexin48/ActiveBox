@@ -2,9 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/adaptiv.css">
     <link rel="stylesheet" href="../css/body.css">
     <link rel="stylesheet" href="../css/botton.css">
     <link rel="stylesheet" href="../css/title.css">
@@ -17,6 +16,8 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/download.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/adaptiv.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -26,29 +27,41 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="container">
-            <div class="header__nav">
-                <div class="header__nav-left">
-                    <img src="../img/header/ActiveBox.png" alt="">
+    <div class="wrapper">
+        <div class="header">
+            <div class="container">
+                <div class="header__body">
+                    <div class="header__logo">
+                        <img src="../img/header/ActiveBox.png" alt="">
+                    </div>
+                    <div class="header__menu-Burger">
+                        <span></span>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li><a class="header__link" href="#">features</a></li>
+                            <li><a class="header__link" href="#">works</a></li>
+                            <li><a class="header__link" href="#">our team</a></li>
+                            <li><a class="header__link" href="#">Testimonials</a></li>
+                            <li><a class="header__link" href="#">Download</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <div class="header__nav-right">
-                    <a class="header__right" href="#">features</a>
-                    <a class="header__right" href="#">works</a>
-                    <a class="header__right" href="#">our team</a>
-                    <a class="header__right" href="#">Testimonials</a>
-                    <a class="header__right" href="#">Download</a>
-                </div>
-            </div>
-            <div class="header__text">
-                <h1 class="header__title">Your Favorite One Page Multi Purpose Template</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna
-                    vel scelerisque nisl consectetur et.
-                </p>
-                <a class="header__btn" href="http://ActiveBox.ru" target="btn">Find Out More</a>
+                <script src="../script.js"></script>
+                <script src="https://code.jquery.com/jquery-3.4.1.sim.min.js"></script>
+
             </div>
         </div>
+        <div class="header__content">
+            <div class="container"></div>
+            <h1 class="header__title">Your Favorite One Page Multi Purpose Template</h1>
+            <p class="header__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna
+                vel scelerisque nisl consectetur et.
+            </p>
+            <a class="btn" href="http://ActiveBox.ru" target="btn">Find Out More</a>
+        </div>
+    </div>
     </div>
 
     <div class="container">
@@ -106,72 +119,56 @@
 
     <div class="works">
         <div class="works__work">
-            <div class="work__img">
-                <img src="../img/works/Layer 35.png" alt="">
-            </div>
+            <div class="work__img"></div>
             <div class="work__content">
                 <div class="work__title">Project name</div>
                 <div class="work__text">User interface Design</div>
             </div>
         </div>
         <div class="works__work">
-            <div class="work__img">
-                <img src="../img/works/Layer 36.png" alt="">
-            </div>
+            <div class="work__img"></div>
             <div class="work__content">
                 <div class="work__title">Project name</div>
                 <div class="work__text">User interface Design</div>
             </div>
         </div>
         <div class="works__work">
-            <div class="work__img">
-                <img src="../img/works/Layer 37.png" alt="">
-            </div>
+            <div class="work__img"></div>
             <div class="work__content">
                 <div class="work__title">Project name</div>
                 <div class="work__text">User interface Design</div>
             </div>
         </div>
         <div class="works__work">
-            <div class="work__img">
-                <img src="../img/works/Layer 38.png" alt="">
-            </div>
+            <div class="work__img"></div>
             <div class="work__content">
                 <div class="work__title">Project name</div>
                 <div class="work__text">User interface Design</div>
             </div>
         </div>
         <div class="works__work">
-            <div class="work__img">
-                <img src="../img/works/Layer 39.png" alt="">
-            </div>
+            <div class="work__img"></div>
             <div class="work__content">
                 <div class="work__title">Project name</div>
                 <div class="work__text">User interface Design</div>
             </div>
         </div>
         <div class="works__work">
-            <div class="work__img">
-                <img src="../img/works/Layer 40.png" alt="">
-            </div>
+            <div class="work__img"></div>
             <div class="work__content">
                 <div class="work__title">Project name</div>
                 <div class="work__text">User interface Design</div>
             </div>
         </div>
         <div class="works__work">
-            <div class="work__img">
-                <img src="../img/works/Layer 41.png" alt="">
-            </div>
+            <div class="work__img"></div>
             <div class="work__content">
                 <div class="work__title">Project name</div>
                 <div class="work__text">User interface Design</div>
             </div>
         </div>
         <div class="works__work">
-            <div class="work__img">
-                <img src="../img/works/Layer 42.png" alt="">
-            </div>
+            <div class="work__img"></div>
             <div class="work__content">
                 <div class="work__title">Project name</div>
                 <div class="work__text">User interface Design</div>
@@ -192,9 +189,11 @@
                     Founder, CEO
                 </div>
                 <div class="team__text">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus
-                    eget urna mollis ornare vel eu leo.
+                    <p> Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+                        justo
+                        sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis
+                        risus
+                        eget urna mollis ornare vel eu leo.</p>
                 </div>
                 <div class="team__social-icons">
                     <div class="team__social-icon">
@@ -300,11 +299,13 @@
         <div class="clients__img">
             <img src="../img/clients/Layer 19.png" alt="">
         </div>
-        <div class="clients__text">
-            <h2>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu
-                leo
-                quam...”</h2>
-            <p>Susan Sims, Interaction Designer at XYZ</p>
+        <div class="clients__background">
+            <div class="clients__text">
+                <h2>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu
+                    leo
+                    quam...”</h2>
+                <p>Susan Sims, Interaction Designer at XYZ</p>
+            </div>
         </div>
     </div>
     </div>
@@ -315,7 +316,8 @@
         <div class="download__text">
             <p>Fusce dapibus, tellus ac cursus commodo</p>
         </div>
-            <a class="download__btn" href="">Download Here</a>
+        <a class="download__btn" href="">Download Here</a>
+    </div>
     </div>
 
     <div class="footer">

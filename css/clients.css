@@ -1,18 +1,26 @@
 .clients {
     display: flex;
     justify-content: center;
-
-
 }
 
-.clients__img img {
+
+.clients__img img{
     display: block;
+    max-width: 100%;
+}
+
+.clients__background{
+    background-color: #53354a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 50px;
+    max-width: 50%;
 }
 
 .clients__text {
-    padding: 115px 365px 0 90px;
-    background-color: #53354a;
-
+    width: 75%;
 }
 
 .clients__text h2 {
@@ -24,5 +32,6 @@
 .clients__text p {
     text-transform: uppercase;
     padding-top: 30px;
+    
 
 }
